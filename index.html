@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/CSS/style.css">
+    <title>ClassCreditCard</title>
+</head>
+<body>
+    <div class="ambiente">
+        <div class="card">
+            <h1>AgiotaCredit</h1>
+            <img class="chip"src="https://img.icons8.com/ios-filled/50/ffffff/sim-card-chip.png"/>
+            
+                <h2>4002 8922 9000 4000</h2>   
+               <div class="namelogo">
+                    <div class="name">
+                        <h4>12/02</h4>
+                        <p>Victor Henrique Basso</p>
+                    </div>
+                    <img style="height: 80px; margin-right: 5px;" src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/>
+            </div>
+        </div>
+    </div> 
+    <script src="./src/JS/tilt3d.js"></script>
+    
+    <script type="text/javascript">
+	    VanillaTilt.init(document.querySelector(".card"), {
+		max: 50,
+		speed: 400
+	    });
+	
+	    //It also supports NodeList
+	    VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>    
+    
+</body>
+</html>

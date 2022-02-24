@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto+Mono&display=swap');
+
+*{  text-shadow: -1px 0px 10px rgba(154, 150, 150, 1);
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    
+    overflow: hidden;
+}
+
+.ambiente{
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.253);
+    background: linear-gradient(90deg, rgba(255,255,255,0.67102591036414565) 0%, rgba(255, 255, 255, 0) 100%);
+    border:2px solid hsla(0, 0%, 100%, 0.3);
+    backdrop-filter:blur(8px);
+    height: 300px;
+    width: 450px;
+    border-radius: 24px;
+    padding:2rem;
+    transform-style: preserve-3d;
+    transform:perspective(1000px);
+    overflow:hidden;
+}
+
+h1{ 
+    
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.chip{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-top: 60px;
+}
+
+h2{ 
+    color: aliceblue;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.namelogo{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:5%;
+    height: 60px;
+}
+h4{ 
+    font-family: 'Cinzel', serif;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+
+p{  font-size: 20px;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue; }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        25%{
+            background-color: grey;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
